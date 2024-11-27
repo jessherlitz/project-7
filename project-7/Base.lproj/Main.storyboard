@@ -86,7 +86,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QF-Lh-dQQ">
                                 <rect key="frame" x="30" y="100" width="333" height="20.333333333333329"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -104,6 +104,7 @@
                     </view>
                     <connections>
                         <outlet property="readMoreLabel" destination="0QF-Lh-dQQ" id="Gpo-dt-vD3"/>
+                        <outlet property="viewBackground" destination="mgT-NB-wlp" id="2cM-BC-5SO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EhX-Bs-rhE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
